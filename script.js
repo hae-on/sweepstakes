@@ -1,10 +1,10 @@
-function printName() {
-  const number = document.getElementById('name').value;
+function printNumber() {
+  const number = document.getElementById('number').value;
 
   if (data.includes(Number(number))) {
-    console.log('똑같');
+    document.getElementById('result').innerText = '🎉 당첨 🎉';
   } else {
-    console.log('안똑같');
+    document.getElementById('result').innerText = '...❌';
   }
 }
 
